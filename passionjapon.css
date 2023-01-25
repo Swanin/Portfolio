@@ -1,0 +1,211 @@
+
+
+    /* -------------------------------------------------------------HEADER------------------------------------------------------------------------------> */
+header{
+    background-color: rgba(255, 126 ,126, 0.55);
+    height:500px;
+
+}
+
+h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 100px;
+}
+
+h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+
+  }
+
+  h3{
+
+  }
+
+nav ul{
+    display: flex;
+  justify-content:flex-start;
+    font-weight: bold;
+    list-style: none;
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 10px;
+
+}
+
+nav li{
+    padding-right: 75px;
+    padding-left: 75px;
+ 
+}
+
+
+nav li:hover{
+    color: red;
+    cursor: pointer;
+    
+    
+
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    color: rgba(255, 126 ,126);
+    font-family: 'Dancing Script', cursive;
+font-size: 40px;}
+/* -------------------------------------------------------------APPRENEZ LE JAPONAIS------------------------------------------------------------------------------> */
+
+.leçon{
+
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+
+  
+}
+
+.leçon img {
+  
+    height: 265px;
+    width: 450px;
+
+}
+
+.cadre1{
+    display:flex ;
+    flex-direction: row;
+   
+    margin-left: 50px;
+    margin-right: 400px;
+    border-radius: 50px;
+    height: 265px;
+    width: 840px;
+    border: 3px solid rgba(255, 126 ,126);
+}
+
+.cadre1 img {
+    margin-top: 40px;
+    margin-left: 50px;
+    height: 177px;
+    width: 292px;
+    border-radius: 50px;
+}
+
+.ecrit {
+    margin-top: 10px;
+    font-size: 25px;
+    margin-left: 150px;
+} 
+
+/* ------------------------------------------------------------CUISINEZ AU JAPONS------------------------------------------------------------------------------> */
+
+.cuisine{
+    padding-top: 40px;
+    background-color:white;
+    display: flex;
+    margin-bottom: 100px;
+    flex-direction: row;
+
+}
+
+.cuisine img {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    margin-left: 50px;
+
+   
+
+
+}
+
+
+.cadre2{
+    display:flex ;
+    flex-direction: row-reverse;
+    margin-left: 400px;
+    margin-right: 50px;
+    border-radius: 50px;
+    height: 265px;
+    width: 840px;
+    border: 3px solid rgba(255, 126 ,126);
+}
+
+.cadre2 img {
+    margin-top: 40px;
+    margin-right: 50px;
+
+    height: 177px;
+    width: 292px;
+    border-radius: 50px;
+}
+
+.ecrit2 {
+    margin-top: 10px;
+    font-size: 25px;
+    margin-right: 100px;
+}
+/* ------------------------------------------------------------Voyagez AU JAPON------------------------------------------------------------------------------> */
+
+.voyage .photo{
+    margin-left: 300px;
+}
+/* ------------------------------------------------------------EXPATRIEZ VOUS AU JAPON------------------------------------------------------------------------------> */
+
+.expat{
+    padding-top: 90px;
+    background-color:white;
+    display: flex;
+    margin-bottom: 100px;
+    flex-direction: row;
+
+}
+
+.expat .photo {
+  
+    height: 250px;
+    width:200px;
+
+}
+
+
+
+
+/* ------------------------------------------------------------EXPATRIEZ VOUS AU JAPON------------------------------------------------------------------------------> */
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 126 ,126, 0.55);
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    font-weight: bold;
+
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 10px;
+    
+
+}
+
+footer ul li{
+    margin-right: 200px;
+
+   
+}
+
+footer ul li:hover{
+    margin-right: 200px;
+    color: red;
+    cursor: pointer;
+
+   
+}
